@@ -1,0 +1,12 @@
+:root{color-scheme:dark}
+body{font-family:Georgia,serif;background:#14161b;color:#e8e8e8;margin:0}
+header,section{max-width:600px;margin:auto;padding:1rem}
+form{display:grid;gap:.5rem;margin-bottom:1rem}
+input,button{padding:.6rem;border-radius:6px;border:1px solid #444;background:#1f232b;color:inherit}
+button{cursor:pointer;background:#3b6cf6;border:0}
+.delete-task{background:#c0392b}.edit-task{background:#8e6b00}
+.task-item{border-left:4px solid #3b6cf6;background:#1f232b;padding:.7rem;margin:.6rem 0;display:grid;gap:.3rem}
+.task-item.is-done{border-color:#2ecc71;opacity:.7}
+.task-item.is-done .task-title{text-decoration:line-through}
+#status-message{min-height:1.4em}
+a{color:#7aa2ff}
